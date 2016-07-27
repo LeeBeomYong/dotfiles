@@ -16,7 +16,7 @@ Agens SQL integrated database solution is packaged in various modules based on t
 
 ## Agens-SQL strength
 - Scalable DBMS packages with the variety open source modules
-	* Agens SQL is based on PostgreSQL and provides open source packages as selective form for convenience and stability. Having a reputation for an open source version of Oracle, existing users of Oracle can use PostgreSQL easily without much difference. Diverse packages for indispensable functions - Replication, Failover, Connection Pooling, and so forth ? are provided as well.
+	* Agens-SQL is based on PostgreSQL and provides open source packages as selective form for convenience and stability. Having a reputation for an open source version of Oracle, existing users of Oracle can use PostgreSQL easily without much difference. Diverse packages for indispensable functions - Replication, Failover, Connection Pooling, and so forth - are provided as well.
 - Suitability of Data
 	* ACID transaction
 	* Serializable isolation level
@@ -48,7 +48,7 @@ Agens-SQL 1.0 offers convenient and variety of functions in managing or operatin
 
 - pgpool-II
 	- Pgpool-II is a middleware that works between PostgreSQL servers and PostgreSQL database client.
-	- It improves system¡¯s overall throughput by means of Connection Pooling and Load Balancing, in addition to high-availability using the replication function.
+	- It improves system's overall throughput by means of Connection Pooling and Load Balancing, in addition to high-availability using the replication function.
 	- It's license information, [here](https://github.com/bitnine-oss/agens-sql/blob/master/pgpool-II-3.4.2/COPYING)
 
 - PostGIS
@@ -59,12 +59,12 @@ Agens-SQL 1.0 offers convenient and variety of functions in managing or operatin
 - PgBouncer
 	- PgBouncer is a lightweight connection pooler for PostgreSQL.
 	- When client connects, via Session pooling, server connection will be assigned to it for the whole duration it stays connected. When client disconnects, the server connection will be put back into pool. Thus the overhead when the session and the server are connected can be reduced- Server connection is assigned to client only during a transaction via Transactino pooling. When PgBouncer notices that transaction is over, the server will be put back into pool.
-	- Statement pooling enforces ¡°autocommit¡± mode on client, mostly targeted for PL/Proxy.
+	- Statement pooling enforces "autocommit" mode on client, mostly targeted for PL/Proxy.
 	- It's license information, [here](https://github.com/bitnine-oss/agens-sql/blob/master/pgbouncer-1.5.5/COPYRIGHT)
 
 - PGQ
 	- PGQ, a Queueing Solution, will solve asynchronous batch processing of live transactions.
-	- When you¡¯re doing many INSERT/DELETE/UPDATE of rows in a transaction during batch processing, and you want to trigger some actions before COMMIT, it will do asynchronously without blocking the live transaction.
+	- When you're doing many INSERT/DELETE/UPDATE of rows in a transaction during batch processing, and you want to trigger some actions before COMMIT, it will do asynchronously without blocking the live transaction.
 	- It's license information, [here](no link)
 
 - PL/Proxy
@@ -112,8 +112,8 @@ Copyright (c) 1994, The Regents of the University of California
 
 		* (ii) Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 
-		* (iii) Neither the name of the Bitnine Inc. nor the University of California nor names of their contributors may be used to endorse or promote products derived from this software without specific prior written permission. The name ¡°Agens¡± is a trademark of Bitnine Inc.
+		* (iii) Neither the name of the Bitnine Inc. nor the University of California nor names of their contributors may be used to endorse or promote products derived from this software without specific prior written permission. The name "Agens" is a trademark of Bitnine Inc.
 
 4. IN NO EVENT SHALL THE UNIVERSITY OF CALIFORNIA BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF THE UNIVERSITY OF CALIFORNIA HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-THE UNIVERSITY OF CALIFORNIA SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER IS ON AN ¡°AS IS¡± BASIS, AND THE UNIVERSITY OF CALIFORNIA HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+THE UNIVERSITY OF CALIFORNIA SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER IS ON AN "AS IS" BASIS, AND THE UNIVERSITY OF CALIFORNIA HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
