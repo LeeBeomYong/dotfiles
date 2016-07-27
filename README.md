@@ -1,5 +1,5 @@
 # dotfiles
-gens-SQL
+# Agens-SQL
 ----------------------
 Agens-SQL is the nation's first integrated database package of PostgreSQL which is an open source DBMS and the extension modulues of it. Agens-SQL 1.0 is built on PostgreSQL 9.4. It is a stable and verified integrated database package which anyone can use for free.
 
@@ -92,6 +92,7 @@ Agens-SQL 1.0 offers convenient and variety of functions in managing or operatin
 
 ##License
 copyright ⓒ 2014-2015, Bitnine Inc.
+
 All right reserved.
 
 1. Redistributions of Source Code must retain the copyright notices as they appear in each Source Code file, these license terms, and the disclaimer/limitation of liability set forth as paragraph 4 below.
