@@ -88,7 +88,7 @@ Agens-SQL 1.0 offers convenient and variety of functions in managing or operatin
 
 9. Orafce
 
-- Orafce is a module with all Oracle functions and operators compatible with Oracle.
+- Orafce is a module with all Oracle functions and operators compatible with Oracle. [see](https://github.com/bitnine-oss/agens-sql/blob/master/pgpool-II-3.4.2/COPYING)
 
 ##License
 copyright ⓒ 2014-2015, Bitnine Inc.
